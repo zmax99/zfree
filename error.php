@@ -22,7 +22,6 @@ $user = JFactory::getUser();
 // Getting params from template
 $params = $app->getTemplate(true)->params;
 
-// Detecting Active Variables
 $option   = $app->input->getCmd('option', '');
 $view     = $app->input->getCmd('view', '');
 $layout   = $app->input->getCmd('layout', '');
