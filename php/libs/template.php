@@ -183,11 +183,47 @@ class ZFreeTemplate
 					
 	 * @说明：
 	 */
-    public function module($name, $style = 'no')
+    public function defModule($name, $style = 'html5')
     {
-        return '<jdoc:include type="modules" name="' . $name . '" style="' . $style . '" />';
+		$module = '';
+		for($i=1;$i<7;$i++)
+		{
+			$moduleNames = $this->getModuleRowNames($name,$i);
+			if($this->countModules($moduleNames))
+			{
+				$module.=$this->getRowModules($name,$i);	
+			}
+		}
+        echo $module;
     }
 	
+	protected function getRowModules($module,$row)
+	{
+		$moduleHtml="";
+		for($i=1;$i<=$row;$i++)
+		{
+			
+			$moduleHtml.='<div class="uk-width-1-'.$row.'">
+							<jdoc:include type="modules" name="'.$module.'-'.$row.'-row-'.$i.'" style="html5" />
+						</div>';
+		}
+		$rowModules='<div class="z4-'.$module.'-'.$row.'-row uk-grid">'.$moduleHtml.'</div>';
+		return $rowModules;
+	}
+	
+	protected function getModuleRowNames($module,$row)
+	{
+		if($row==1)
+		{
+			return $module."-".$row."-row";	
+		}
+		$names= array();
+		for($i=1;$i<=$row;$i++)
+		{
+			$names[]=$module."-".$row."-row-".$i;	
+		}
+		return $names;
+	}
 	
 	
 	public function countModules($name)
