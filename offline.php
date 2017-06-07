@@ -1,10 +1,14 @@
 <?php
 /**
- * @package     Joomla.Site
- * @subpackage  Templates.protostar
+ * ZFree(自由)模板 by ZMAX团队 (zmax99.com)
  *
- * @copyright   Copyright (C) 2005 - 2017 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @package    ZFree
+ * @author     ZMAX团队 
+ * @email      zhang19min88@163.com
+ * @created    2017-06-04 
+ * @copyright  Copyright (c) 南宁市程序人软件科技有限责任公司
+ * @license    http://www.gnu.org/licenses/gpl.html GNU/GPL
+ * @link       http://www.zmax99.com/template/zfree ZFree主页
  */
 
 defined('_JEXEC') or die;
