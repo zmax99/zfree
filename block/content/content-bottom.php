@@ -18,7 +18,7 @@ $name="content-bottom";
 <?php if($this->countModules("content-bottom-1-row")):?>
 <div class="z4-content-bottom-1-row uk-grid">
 	<div class="uk-width-1-1">
-		<jdoc:include type="modules" name="content-bottom-1-row" style="none" />
+		<jdoc:include type="modules" name="content-bottom-1-row" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -26,10 +26,10 @@ $name="content-bottom";
 <?php if($this->countModules(array("content-bottom-2-row-1","content-bottom-2-row-2"))):?>
 <div class="z4-content-bottom-2-row uk-grid">
 	<div class="uk-width-1-2">
-		<jdoc:include type="modules" name="content-bottom-2-row-1" style="none" />
+		<jdoc:include type="modules" name="content-bottom-2-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-2">
-		<jdoc:include type="modules" name="content-bottom-2-row-2" style="none" />
+		<jdoc:include type="modules" name="content-bottom-2-row-2" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -37,13 +37,13 @@ $name="content-bottom";
 <?php if($this->countModules(array("content-bottom-3-row-1","content-bottom-3-row-2","content-bottom-3-row-3"))):?>
 <div class="z4-content-bottom-3-row uk-grid">
 	<div class="uk-width-1-3">
-		<jdoc:include type="modules" name="content-bottom-3-row-1" style="none" />
+		<jdoc:include type="modules" name="content-bottom-3-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-3">
-		<jdoc:include type="modules" name="content-bottom-3-row-2" style="none" />
+		<jdoc:include type="modules" name="content-bottom-3-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-3">
-		<jdoc:include type="modules" name="content-bottom-3-row-3" style="none" />
+		<jdoc:include type="modules" name="content-bottom-3-row-3" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -51,16 +51,16 @@ $name="content-bottom";
 <?php if($this->countModules(array("content-bottom-4-row-1","content-bottom-4-row-2","content-bottom-4-row-3","content-bottom-4-row-4"))):?>	
 <div class="z4-content-bottom-4-row uk-grid">
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="content-bottom-4-row-1" style="none" />
+		<jdoc:include type="modules" name="content-bottom-4-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="content-bottom-4-row-2" style="none" />
+		<jdoc:include type="modules" name="content-bottom-4-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="content-bottom-4-row-3" style="none" />
+		<jdoc:include type="modules" name="content-bottom-4-row-3" style="html5" />
 	</div>
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="content-bottom-4-row-4" style="none" />
+		<jdoc:include type="modules" name="content-bottom-4-row-4" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -68,19 +68,19 @@ $name="content-bottom";
 <?php if($this->countModules(array("content-bottom-5-row-1","content-bottom-5-row-2","content-bottom-5-row-3","content-bottom-5-row-4","content-bottom-5-row-5"))):?>	
 <div class="z4-content-bottom-5-row uk-grid">
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="content-bottom-5-row-1" style="none" />
+		<jdoc:include type="modules" name="content-bottom-5-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="content-bottom-5-row-2" style="none" />
+		<jdoc:include type="modules" name="content-bottom-5-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="content-bottom-5-row-3" style="none" />
+		<jdoc:include type="modules" name="content-bottom-5-row-3" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="content-bottom-5-row-4" style="none" />
+		<jdoc:include type="modules" name="content-bottom-5-row-4" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="content-bottom-5-row-5" style="none" />
+		<jdoc:include type="modules" name="content-bottom-5-row-5" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -88,22 +88,22 @@ $name="content-bottom";
 <?php if($this->countModules(array("content-bottom-6-row-1","content-bottom-6-row-2","content-bottom-6-row-3","content-bottom-6-row-4","content-bottom-6-row-5","content-bottom-6-row-6"))):?>	
 <div class="z4-content-bottom-6-row uk-grid">
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="content-bottom-6-row-1" style="none" />
+		<jdoc:include type="modules" name="content-bottom-6-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="content-bottom-6-row-2" style="none" />
+		<jdoc:include type="modules" name="content-bottom-6-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="content-bottom-6-row-3" style="none" />
+		<jdoc:include type="modules" name="content-bottom-6-row-3" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="content-bottom-6-row-4" style="none" />
+		<jdoc:include type="modules" name="content-bottom-6-row-4" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="content-bottom-6-row-5" style="none" />
+		<jdoc:include type="modules" name="content-bottom-6-row-5" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="content-bottom-6-row-6" style="none" />
+		<jdoc:include type="modules" name="content-bottom-6-row-6" style="html5" />
 	</div>
 </div>
 <?php endif;?>

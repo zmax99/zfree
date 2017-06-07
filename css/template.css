@@ -25,3 +25,23 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.z4-topbar {
+    background: #181818;
+    color: #999999;
+    font-family: 'Roboto Slab',Georgia,Times,serif;
+    padding: 10px 0;
+    position: relative;
+    z-index: 101;
+}
+.z4-mainnav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f0141e;
+    position: relative;
+}
+.z4-footer {
+    background: #222222;
+    color: #555555;
+    padding-top: 30px;
+}

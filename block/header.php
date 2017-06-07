@@ -14,14 +14,14 @@ defined('_JEXEC') or die;
 		<?php if($this->countModules("logo")):?>
 			<div class="z4-logo-1-row uk-grid">
 				<div class="uk-width-4-6">
-					<jdoc:include type="modules" name="logo" style="none" />
+					<jdoc:include type="modules" name="logo" style="html5" />
 				</div>
 			</div>
 		<?php endif;?>
 		<?php if($this->countModules("search")):?>
 			<div class="z4-logo-1-row uk-grid">
 				<div class="uk-width-2-6">
-					<jdoc:include type="modules" name="search" style="none" />
+					<jdoc:include type="modules" name="search" style="html5" />
 				</div>
 			</div>
 		<?php endif;?>

@@ -18,7 +18,7 @@ $name="spotlight";
 <?php if($this->countModules("spotlight-1-row")):?>
 <div class="z4-spotlight-1-row uk-grid">
 	<div class="uk-width-1-1">
-		<jdoc:include type="modules" name="spotlight-1-row" style="none" />
+		<jdoc:include type="modules" name="spotlight-1-row" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -26,10 +26,10 @@ $name="spotlight";
 <?php if($this->countModules(array("spotlight-2-row-1","spotlight-2-row-2"))):?>
 <div class="z4-spotlight-2-row uk-grid">
 	<div class="uk-width-1-2">
-		<jdoc:include type="modules" name="spotlight-2-row-1" style="none" />
+		<jdoc:include type="modules" name="spotlight-2-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-2">
-		<jdoc:include type="modules" name="spotlight-2-row-2" style="none" />
+		<jdoc:include type="modules" name="spotlight-2-row-2" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -37,13 +37,13 @@ $name="spotlight";
 <?php if($this->countModules(array("spotlight-3-row-1","spotlight-3-row-2","spotlight-3-row-3"))):?>
 <div class="z4-spotlight-3-row uk-grid">
 	<div class="uk-width-1-3">
-		<jdoc:include type="modules" name="spotlight-3-row-1" style="none" />
+		<jdoc:include type="modules" name="spotlight-3-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-3">
-		<jdoc:include type="modules" name="spotlight-3-row-2" style="none" />
+		<jdoc:include type="modules" name="spotlight-3-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-3">
-		<jdoc:include type="modules" name="spotlight-3-row-3" style="none" />
+		<jdoc:include type="modules" name="spotlight-3-row-3" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -51,16 +51,16 @@ $name="spotlight";
 <?php if($this->countModules(array("spotlight-4-row-1","spotlight-4-row-2","spotlight-4-row-3","spotlight-4-row-4"))):?>	
 <div class="z4-spotlight-4-row uk-grid">
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="spotlight-4-row-1" style="none" />
+		<jdoc:include type="modules" name="spotlight-4-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="spotlight-4-row-2" style="none" />
+		<jdoc:include type="modules" name="spotlight-4-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="spotlight-4-row-3" style="none" />
+		<jdoc:include type="modules" name="spotlight-4-row-3" style="html5" />
 	</div>
 	<div class="uk-width-1-4">
-		<jdoc:include type="modules" name="spotlight-4-row-4" style="none" />
+		<jdoc:include type="modules" name="spotlight-4-row-4" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -68,19 +68,19 @@ $name="spotlight";
 <?php if($this->countModules(array("spotlight-5-row-1","spotlight-5-row-2","spotlight-5-row-3","spotlight-5-row-4","spotlight-5-row-5"))):?>	
 <div class="z4-spotlight-5-row uk-grid">
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="spotlight-5-row-1" style="none" />
+		<jdoc:include type="modules" name="spotlight-5-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="spotlight-5-row-2" style="none" />
+		<jdoc:include type="modules" name="spotlight-5-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="spotlight-5-row-3" style="none" />
+		<jdoc:include type="modules" name="spotlight-5-row-3" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="spotlight-5-row-4" style="none" />
+		<jdoc:include type="modules" name="spotlight-5-row-4" style="html5" />
 	</div>
 	<div class="uk-width-1-5">
-		<jdoc:include type="modules" name="spotlight-5-row-5" style="none" />
+		<jdoc:include type="modules" name="spotlight-5-row-5" style="html5" />
 	</div>
 </div>
 <?php endif;?>
@@ -88,22 +88,22 @@ $name="spotlight";
 <?php if($this->countModules(array("spotlight-6-row-1","spotlight-6-row-2","spotlight-6-row-3","spotlight-6-row-4","spotlight-6-row-5","spotlight-6-row-6"))):?>	
 <div class="z4-spotlight-6-row uk-grid">
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="spotlight-6-row-1" style="none" />
+		<jdoc:include type="modules" name="spotlight-6-row-1" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="spotlight-6-row-2" style="none" />
+		<jdoc:include type="modules" name="spotlight-6-row-2" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="spotlight-6-row-3" style="none" />
+		<jdoc:include type="modules" name="spotlight-6-row-3" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="spotlight-6-row-4" style="none" />
+		<jdoc:include type="modules" name="spotlight-6-row-4" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="spotlight-6-row-5" style="none" />
+		<jdoc:include type="modules" name="spotlight-6-row-5" style="html5" />
 	</div>
 	<div class="uk-width-1-6">
-		<jdoc:include type="modules" name="spotlight-6-row-6" style="none" />
+		<jdoc:include type="modules" name="spotlight-6-row-6" style="html5" />
 	</div>
 </div>
 <?php endif;?>

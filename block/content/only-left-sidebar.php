@@ -11,9 +11,9 @@ defined('_JEXEC') or die;
 <div id="t3-mainbody" class="container t3-mainbody">
 	<div class="uk-grid">
 		<div class="uk-width-1-4">	
-			<div><jdoc:include type="modules" name="sidebar-left1" style="none" /></div>
-			<div><jdoc:include type="modules" name="sidebar-left2" style="none" /></div>
-			<div><jdoc:include type="modules" name="sidebar-left3" style="none" /></div>
+			<div><jdoc:include type="modules" name="sidebar-left1" style="html5" /></div>
+			<div><jdoc:include type="modules" name="sidebar-left2" style="html5" /></div>
+			<div><jdoc:include type="modules" name="sidebar-left3" style="html5" /></div>
 		</div>
 		<div class="uk-width-3-4">
 			<!-- MAIN CONTENT -->
