@@ -1,0 +1,27 @@
+.z4-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .z4-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .z4-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .z4-container {
+    width: 1170px;
+  }
+}
+.z4-container ,.z4-container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

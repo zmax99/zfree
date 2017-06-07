@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>ZFree</name>
+    <creationDate>2017-06-05</creationDate>
+    <author>ZMAX团队</author>
+    <authorEmail>zhang19min88@163.com</authorEmail>
+    <authorUrl>http://www.zmax99.com/</authorUrl>
+    <copyright>Copyright (C) 2011 - 2017 南宁市程序人软件科技有限责任公司, All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+    <version>0.0.1</version>
+    <description><![CDATA[
+        <p>由ZMAX团队开发的ZFree(自由)模板.该模板为JCPP(Joomla中国推广计划)的一部分，目标是开发一款适合国内用户使用和学习的免费模板，该模板加入了很多国内元素，相比国外模板更加适合国情</p>
+        <ul>
+            <li>
+                Joomla中国推广计划<a href="http://www.joomlachina.cn/" target="_blank">（JCPP计划） </a> 
+                <a href="http://www.joomlachina.cn/" target="_blank">Joomla中国官方网站</a>
+            </li>
+            <li>
+                Github项目地址<a href="https://github.com/smetdenis/jblank" target="_blank">ZFree模板</a>
+            </li>
+            <li>
+                Bug反馈或者建议? <a href="https://www.zmax99.com" target="_blank">ZMAX官方支持论坛!</a>
+            </li>
+            <li>
+                支持我们的工作
+            </li>
+        </ul>
+    ]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+		<folder>php</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>footer</position>
+	</positions>
+	<languages folder="language">
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
