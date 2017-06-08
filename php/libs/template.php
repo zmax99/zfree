@@ -183,12 +183,12 @@ class ZFreeTemplate
 					
 	 * @说明：
 	 */
-    public function defModule($name, $style = 'html5')
+    public function defModule($name, $style = 'Z4html5')
     {
 		$module = '';
 		for($i=1;$i<7;$i++)
 		{
-			$moduleNames = $this->getModuleRowNames($name,$i);
+			$moduleNames = $this->getModuleRowNames($name,$i,$style);
 			if($this->countModules($moduleNames))
 			{
 				$module.=$this->getRowModules($name,$i);	
@@ -197,14 +197,14 @@ class ZFreeTemplate
         echo $module;
     }
 	
-	protected function getRowModules($module,$row)
+	protected function getRowModules($module,$row,$style="Z4html5")
 	{
 		$moduleHtml="";
 		for($i=1;$i<=$row;$i++)
 		{
 			
 			$moduleHtml.='<div class="uk-width-1-'.$row.'">
-							<jdoc:include type="modules" name="'.$module.'-'.$row.'-row-'.$i.'" style="html5" />
+							<jdoc:include type="modules" name="'.$module.'-'.$row.'-row-'.$i.'" style="'.$style.'" />
 						</div>';
 		}
 		$rowModules='<div class="z4-'.$module.'-'.$row.'-row uk-grid">'.$moduleHtml.'</div>';

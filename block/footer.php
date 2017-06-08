@@ -18,6 +18,6 @@ $name="footer";
 
 <div class="z4-footer">
 	<div class="z4-container">
-		<?php $this->defModule($name);?>
+		<?php $this->defModule($name,"z4_Xhtml");?>
 	</div>
 </div>

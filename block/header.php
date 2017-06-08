@@ -6,26 +6,51 @@
  */
 
 defined('_JEXEC') or die;
+$logoImage="templates/zfree/images/logo.png";
+$siteName="ZFree自由模板";
+$slogan="为中国Joomla用户打造的免费模板";
+$headright=0;
 ?>
-<?php if(0):?>
-<!-- 头部信息 -->
-<header id="z4-header" class="z4-container-fluid z4-header">
-	<div class="z4-top-3-row uk-grid">
-		<?php if($this->countModules("logo")):?>
-			<div class="z4-logo-1-row uk-grid">
-				<div class="uk-width-4-6">
-					<jdoc:include type="modules" name="logo" style="html5" />
+<!-- HEADER -->
+<div class="z4-container">
+	<div class="uk-grid">
+		<div class="uk-width-3-5 logo">
+			<!-- LOGO -->
+			<?php if($this->countModules("logo")):?>
+				<jdoc:include type="modules" name="logo" style="no" />
+			<?php else:?>
+			<div class="logo-type-text">
+				<a href="<?php echo JURI::base(true) ?>" title="<?php echo strip_tags($siteName) ?>">
+					<img class="logo-img" src="<?php echo JURI::base(true) . '/' . $logoImage ?>" alt="<?php echo strip_tags($siteName) ?>" />
+					<span><?php echo $siteName ?></span>
+				</a>
+				<small class="site-slogan"><?php echo $slogan ?></small>
+			</div>	
+			<?php endif;?>
+		</div>
+		<!-- //LOGO -->
+
+		
+		<div class="uk-width-2-5">
+			<?php if ($this->countModules('head-search')) : ?>
+				<!-- HEAD SEARCH -->
+				<div class="head-search ">
+					<jdoc:include type="modules" name="head-search" style="raw" />
 				</div>
-			</div>
-		<?php endif;?>
-		<?php if($this->countModules("search")):?>
-			<div class="z4-logo-1-row uk-grid">
-				<div class="uk-width-2-6">
-					<jdoc:include type="modules" name="search" style="html5" />
+				<!-- //HEAD SEARCH -->
+			<?php endif ?>
+
+			<?php if ($this->countModules('languageswitcher')) : ?>
+				<!-- LANGUAGE SWITCHER -->
+				<div class="languageswitcher">
+					<jdoc:include type="modules" name="<?php $this->_p('languageswitcher') ?>" style="raw" />
 				</div>
-			</div>
-		<?php endif;?>
+				<!-- //LANGUAGE SWITCHER -->
+			<?php endif ?>
+		</div>
+		
+
 	</div>
-</header>
+
 <!-- //HEADER -->
-<?php endif;?>
+</div>
