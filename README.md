@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## ZFree自由模板 是ZMAX团队为中国joomla用户打造的一款免费开源的模板
 
 You can use the [editor on GitHub](https://github.com/zmax99/zfree/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -32,6 +32,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zmax99/zfree/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### 技术支持和联系
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+有反馈建议或者遇到问题? 提交 [issue](ttps://github.com/zmax99/zfree/issues) or [联系我们技术支持](http://www.zmax99.com) .
