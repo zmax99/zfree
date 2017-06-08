@@ -34,7 +34,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+更多信息请访问  [ZMAX官方网站](http://www.zmax99.com)
 
 ### Joomla新手
 
